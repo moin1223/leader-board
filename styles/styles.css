@@ -81,3 +81,29 @@ hr{
     color: #562EFF;
 }
 
+/*-------------------
+     Lates Course 
+---------------------> */
+.courses{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap:30px ;
+    
+}
+.course .couse-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-info .fa-star.filled{
+    color: #FFC014;
+}
+.course-info .fa-star.empty{
+    color: #AEAEAE;
+}
+
+
